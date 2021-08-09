@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'), url('fonts/ballpark.woff') format('woff'), url('fonts/ballpark.ttf') format('truetype'), url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Day Roman';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'), url('fonts/dayrom.woff') format('woff'), url('fonts/dayrom.ttf') format('truetype'), url('fonts/dayrom.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    background-color: lavender;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: BallParkWeiner;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Day Roman;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+footer {
+    font-family: Day Roman;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: 181818;
+    list-style-type: none
+}
+
+header ul li a {
+    text-decoration-line: none;
+    color: #181818;
+}
+
+ul li a:hover {
+    color: #0000FF;
+    border-bottom-color: #0000FF;
+    border-bottom: 3px solid;
+}
+
+aside {
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+}
+
+footer {
+    background: lightsteelblue;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+#avatar h1 {
+    position: absolute;
+    top: 125px;
+}
+
+#avatar {
+    position: relative;
+    z-index: -1;
+    background-image: url('./img/background.jpg');
+    background-size: 100% auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    size: cover;
+}
+
+#title {
+    color: white;
+}
+
+.years {
+    float: right;
+}
+
+[name="contactForm"] {
+    padding-left: 10px;
+}
+
+#skills>ul {
+    list-style-type: none;
+}

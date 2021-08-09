@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Lab 1 example created with HTML -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CV - John</title>
+    <link rel="icon" href="./img/cvicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <!--         
+        <meta name="description" content="simple CV example created with HTML">
+        <meta name="author" content="Diana Haidar"> 
+    -->
+
+</head>
+
+<body>
+    <header>
+        <nav id="top">
+            <ul>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+
+        <div id="avatar">
+            <div class="container">
+                <img src="./img/avatar.jpg" alt="John Doe avatar" title="John Doe" width="200" height="200" />
+                <h1 class="text">John Doe</h1>
+            </div>
+            <h2 id="title">Web Designer, Director</h2>
+        </div>
+
+        <h3><a href="mailto:johndoe@yourdomain.com">johndoe@yourdomain.com</a></h3>
+        <h3>(313) - 867-5309</h3>
+    </header>
+
+    <aside>
+        <h2>About me</h2>
+        <p>Hello! I am John Doe. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm focused, dedicated, hard-working and willing to learn in a changing and challenging environment.
+        </p>
+        <div>
+            <a href="https://www.linkedin.com/in/johndoe/" target="_blank"><img src="./img/linkedin.png" width="50" height="50" /></a>
+            <a href="https://www.twitter.com/johndoe/" target="_blank"> <img src="./img/twitter.png" width="50" height="50" /></a>
+            <a href="https://github.com/johndoe/" target="_blank"> <img src="./img/github.png" width="50" height="50" /></a>
+        </div>
+    </aside>
+
+    <!-- Experience -->
+    <div id="experience">
+        <h2>Experience</h2>
+        <div>
+            <h3>Facebook</h3>
+            <h4>Senior Interface Designer <span class="years">2013-2020</span> </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ducimus laboriosam aperiam quas similique perspiciatis tempora reiciendis? Ipsam deleniti iste porro, dolore sit a aperiam corrupti sequi, eum, harum earum? </p>
+        </div>
+
+        <div>
+            <h3>Microsoft</h3>
+            <h4>Principal and Creative Lead <span class="years">2011-2013</span> </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veniam adipisci. Ipsam, enim. Architecto voluptatum eaque consectetur dolor accusantium obcaecati ad recusandae ex ut dolorum. Facilis non amet eos expedita. </p>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div id="education">
+        <h2>Education</h2>
+        <h3>Indiana University - Bloomington, Indiana</h3>
+        <h4>Dual Major, Economics and English &mdash; <strong>4.0 GPA</strong> </h4>
+    </div>
+
+    <!-- Technical skills-->
+    <div id="skills">
+        <h2>Technical skills</h2>
+        <ul>
+            <li>XHTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+
+        <ul>
+            <li>Jquery</li>
+            <li>PHP</li>
+            <li>CVS / Subversion</li>
+        </ul>
+    </div>
+    <hr>
+    <!-- Contact me -->
+    <form id="contact" name="contactForm" method="post" action="https://en.wikipedia.org/wiki/John_Doe">
+        <h2>Contact me!</h2>
+        <label>Name <input type="text" name="name" size=40> </label>
+        <br><br>
+        <label>Email* <input type="text" name="email" size=40 placeholder="johndoe@yourdomain.com" required></label>
+
+        <br><br>
+        <label>Mobile* <input type="text" name="mobile" size=40 required> </label>
+        <br><br> How do you want me to contact you?
+        <label>Email<input type="radio" name="contact" value="email" checked></label>
+        <label>Mobile<input type="radio" name="contact" value="mobile"></label>
+        <br><br> In what area do you want me to help?
+        <select name="help">
+            <option value="webdesign">Web design</option>
+            <option value="interfacedesign">Interface design</option>
+            <option value="projectdirection">Project direction</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br> Message <br />
+        <textarea name="message" cols="45" rows="5" placeholder="Type your message here"></textarea>
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="clear">
+        <br><br>
+    </form>
+
+    <footer>
+        &copy; 2020 | John Doe
+    </footer>
+    <p><a href="#top">Go to top.</a></p>
+</body>
+
+</html
